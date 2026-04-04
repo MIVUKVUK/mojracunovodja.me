@@ -1,1 +1,90 @@
-ovo je moja prva stranica
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moj Računovođa | Profesionalne knjigovodstvene usluge</title>
+    <!-- Bootstrap CSS za moderan izgled -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        .hero-section { background: #f8f9fa; padding: 100px 0; border-bottom: 1px solid #dee2e6; }
+        .service-card { transition: transform 0.3s; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .service-card:hover { transform: translateY(-5px); }
+        .navbar-brand { font-weight: bold; color: #0d6efd; }
+        footer { background: #212529; color: white; padding: 40px 0; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigacija -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">MOJ RAČUNOVOĐA</a>
+            <div class="ms-auto">
+                <a href="tel:+38260000000" class="btn btn-outline-primary btn-sm">📞 Pozovite nas</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Glavni deo (Hero) -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Vaš partner za sigurno poslovanje</h1>
+            <p class="lead mb-4">Prepustite nama brigu o knjigama i porezima, a vi se posvetite razvoju vašeg biznisa.</p>
+            <a href="mailto:mojracunovodja.me@gmail.com" class="btn btn-primary btn-lg px-5">Zakažite besplatne konsultacije</a>
+        </div>
+    </section>
+
+    <!-- Usluge -->
+    <section class="container my-5" id="usluge">
+        <h2 class="text-center mb-5">Naše Usluge</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 service-card p-4 text-center">
+                    <h3>📊</h3>
+                    <h4 class="h5">Knjigovodstvo</h4>
+                    <p class="text-muted small">Vođenje poslovnih knjiga, izrada završnih računa i finansijsko izveštavanje.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 service-card p-4 text-center">
+                    <h3>💼</h3>
+                    <h4 class="h5">Obračun Zarada</h4>
+                    <p class="text-muted small">Kompletna administracija plata, doprinosa i prijava radnika u sistem.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 service-card p-4 text-center">
+                    <h3>🏛️</h3>
+                    <h4 class="h5">Poresko Savetovanje</h4>
+                    <p class="text-muted small">Optimizacija poreskih obaveza i usklađivanje sa najnovijim zakonima.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Kontaktirajte Nas</h2>
+            <p class="mb-4">Tu smo da odgovorimo na sva vaša pitanja.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <p>📍 <strong>Adresa:</strong> Vaša ulica i broj, Grad</p>
+                    <p>📧 <strong>Email:</strong> mojracunovodja.me@gmail.com</p>
+                    <p>🕒 <strong>Radno vreme:</strong> Pon - Pet: 08:00 - 16:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Moj Računovođa. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
